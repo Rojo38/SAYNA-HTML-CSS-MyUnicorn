@@ -1,0 +1,183 @@
+/* DEBUT Body👇 */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 214vh;
+}
+
+
+/* DEBUT Header👇  */
+
+header {
+    padding: 0;
+    height: 10vh;
+    color: white;
+    overflow: hidden;
+    background: #C55394;
+}
+
+header>div {
+    float: left;
+    padding: 3vh;
+    font-size: 4vh;
+    font-family: 'Courgette', cursive;
+    /* Ceci est le Logo : MyUnicorn */
+}
+
+header>nav {
+    float: right;
+    padding: 3.5vh 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header ul>li {
+    width: auto;
+    display: inline-block;
+}
+
+header>nav a {
+    width: 10vw;
+    height: 10vh;
+    font-size: 3vh;
+    color: white;
+    cursor: pointer;
+    padding: 3.5vh 1vh;
+    text-decoration: none;
+}
+
+
+/* Hover😎👇 */
+
+header a:hover {
+    background: #EB43A3;
+}
+
+
+/* DEBUT Article👇 */
+
+article {
+    height: 197vh;
+    background: url(../img/background.png) repeat;
+}
+
+article>h1 {
+    margin: 0;
+    color: #C55394;
+    text-align: center;
+    padding: 12.5vh 0 7.5vh 0;
+    font-family: 'Courgette', cursive;
+    background: url(../img/rainbow.png) no-repeat 50% 5vh;
+    /* Ceci est le Slogan : Un jour, un licorne */
+}
+
+
+/* DEBUT Main👇 */
+
+main {
+    width: 65vw;
+    border: none;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 0.5em;
+    padding: 0 2vw 5vh 2vw;
+    margin: 0 auto 7vh auto;
+}
+
+h2 {
+    color: #EB43A3;
+    font-family: 'courgette', cursive;
+}
+
+i {
+    color: #EB43A3;
+    font-weight: bold;
+    /* font-awesome */
+}
+
+
+/* section1 */
+
+section {
+    margin-top: 7.5vh;
+}
+
+.section1>p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+
+/* section2 */
+
+#image-container {
+    display: flex;
+}
+
+figure {
+    margin: 0 0.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: -22px;
+    text-align: center;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.5);
+    position: relative;
+}
+
+
+/* section3 */
+
+iframe {
+    width: 40vw;
+    height: 25em;
+}
+
+.section3>aside {
+    float: right;
+}
+
+section.info-lieu>div {
+    line-height: 0;
+}
+
+section.info-lieu {
+    margin-top: 0;
+}
+
+.section3>aside h3 {
+    color: #C55394;
+    font-family: 'Courgette', cursive;
+}
+
+.section3 button {
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background: #C55394;
+    border: 2px solid #EB43A3;
+}
+
+
+/* DEBUT Footer👇 */
+
+footer {
+    height: 7vh;
+    background: #E577B5;
+}
+
+footer>span {
+    float: right;
+    color: white;
+}
